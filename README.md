@@ -1,13 +1,18 @@
-# xyz - React Native AI App
+# RealTimeChat with AI
 
 ## Overview
-"xyz" is a React Native application that demonstrates how to integrate an AI model API from Hugging Face. This project showcases how to send text data to an AI model and display the response in a user-friendly interface.
+"RealTimeChat" is a React Native application that demonstrates how to integrate an AI model API from Hugging Face. This project showcases how to send text data to an AI model and display the response in a user-friendly interface.
 
 ## Features
 - AI-powered text processing via Hugging Face API
 - User-friendly React Native interface
 - Works on both Android and iOS
 - Secure API communication
+
+## Demo
+
+https://github.com/user-attachments/assets/6c76f22b-a298-4e3f-9de7-8c35b47e317d
+
 
 ## Prerequisites
 Before running the app, ensure you have the following:
