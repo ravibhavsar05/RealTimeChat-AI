@@ -1,0 +1,15 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".", // Keep this for path resolution relative to tsconfig.json
+    "paths": {
+      "@xyz/components": ["src/components/index"], // Specific mapping for components
+      "@xyz/screens": ["src/screens/index"], // Specific mapping for screens
+      "@xyz/*": ["src/*"] // Fallback for everything else in src
+    },
+    "module": "esnext", // Align with React Native’s default (unless you need esnext)
+    "strict": false // Optional: Enable strict type checking
+  },
+  "include": ["src/**/*", "types/**/*","types.d.ts", "assets"],
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js"]
+}
